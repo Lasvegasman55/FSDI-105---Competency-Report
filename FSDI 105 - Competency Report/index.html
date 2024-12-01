@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Salon</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Pet Salon</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#appointments">Appointments</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+    <section id="services">
+        <h2>Our Services</h2>
+        <p>We offer grooming, pet sitting, and veterinary services.</p>
+    </section>
+    <section id="appointments">
+        <h2>Book an Appointment</h2>
+        <form id="appointmentForm">
+            <label for="petName">Pet's Name:</label>
+            <input type="text" id="petName" name="petName">
+            
+            <label for="service">Service:</label>
+            <select id="service" name="service">
+                <option value="grooming">Grooming</option>
+                <option value="petSitting">Pet Sitting</option>
+                <option value="veterinary">Veterinary</option>
+            </select>
+            
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date">
+            
+            <label for="time">Time:</label>
+            <input type="time" id="time" name="time">
+            
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: info@petsalon.com</p>
+        <p>Phone: (123) 456-7890</p>
+    </section>
+    <script src="scripts.js"></script>
+</body>
+</html>
